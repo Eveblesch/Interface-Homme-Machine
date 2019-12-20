@@ -1,0 +1,391 @@
+
+MainWindow {
+    color: darkslategrey;
+}
+
+QWidget#accueil_widget, #fin_partie_widget{
+    /*border-image: url(:/icones/jacky/accueil.jpg) 0 0 0 0  stretch;*/
+    background-image : url(:/icones/jacky/accueil.jpg);
+    background-position : center;
+    background-repeat : no-repeat;
+}
+
+#instruction_widget, #vues_cartes_widget{
+    /*border-image: url(:/icones/images/paper.jpg) 0 0 0 0  stretch;*/
+    background-image : url(:/icones/jacky/steel.jpg);
+}
+
+
+
+#creation_salon_widget, #lobby_widget , #pseudo_widget
+{
+    /*border-image: url(:/icones/images/wood3.png) 0 0 0 0  stretch;*/
+    background-image : url(:/icones/jacky/steel.jpg);
+    /*background-position : center;
+    background-repeat : no-repeat;*/
+
+}
+
+#defaite_widget{
+background-image : url(:/icones/jacky/defaite.jpg);
+background-position : center;
+background-repeat : no-repeat;
+}
+
+#options_widget, #profil_widget{
+    /*border-image: url(:/icones/images/paper.jpg) 0 0 0 0  stretch;*/
+    background-image : url(:/icones/jacky/steel.jpg);
+    /*background-position : center;
+    background-repeat : no-repeat;*/
+
+}
+
+#choix_partie_widget {
+    /*background-color : #CA054D;*/
+    /*border-image: url(:/icones/images/londres2.jpg) 0 0 0 0  stretch;*/
+    background-image : url(:/icones/images/londres2.jpg);
+    background-position : center;
+    background-repeat : no-repeat;
+
+
+}
+
+#rules_scrollArea {
+    background-color : transparent;
+    border : none;
+}
+
+
+QWidget#centralWidget Carte_button {
+background-image: url(:/icones/jacky/doscarte.jpg);
+border-style : solid;
+border-color : black;
+border-width : 2px;
+
+border-radius : 10px;
+
+}
+QWidget#centralWidget Carte_button:hover {
+background-image: url(:/icones/jacky/doscarte.jpg);
+border-color : red;
+border-width : 2px;
+border-radius : 10px;
+height: 17px;
+width: 13px;
+
+}
+
+
+#gridLayout_info_joueur QPushButton {
+    background-image : none;
+    border-style : none;
+}
+
+#shuffle_widget{
+background-image : url(:/icones/images/wood.png);
+background-position : center;
+background-repeat : no-repeat;
+}
+
+#victoire_widget{
+background-image : url(:/icones/images/victoire.png);
+background-position : center;
+background-repeat : no-repeat;
+}
+
+
+
+#centralWidget,shuffle_widget {
+
+    /*border-image: url(:/icones/images/wood.png) 0 0 0 0  stretch;*/
+
+    background-image : url(:/icones/jacky/bitume.jpg);
+
+}
+
+#centralWidget #label_3 , #centralWidget #label_2
+{
+    color : white;
+}
+
+
+MainWindow QPushButton {
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    padding : 10px 20px;
+    border-radius : 10px;
+
+background-image: url(:/icones/jacky/feu.jpg);
+        background-position : center bottom;
+
+    /*background-color : #ecd4bc;*/
+    /*background-image : url(:/icones/images/old_paper.jpg)*/
+
+}
+
+MainWindow QPushButton:hover{
+        border-radius : 15px;
+        /*background-color:#c09b7f;*/
+}
+
+QPushButton:pressed{
+        background-color:#937761;
+
+}
+
+
+
+/*SLIDER*/
+
+QSlider::groove:horizontal {
+border: 1px solid #bbb;
+background: white;
+height: 10px;
+border-radius: 2px;
+}
+
+QSlider::sub-page:horizontal {
+background-color: #9a8083;
+border: 1px solid #777;
+height: 10px;
+border-radius: 2px;
+}
+
+QSlider::add-page:horizontal {
+background: #fff;
+border: 1px solid #777;
+height: 10px;
+border-radius: 2px;
+}
+
+QSlider::handle:horizontal {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+    stop:0 #eee, stop:1 #ccc);
+border: 1px solid #777;
+width: 13px;
+margin-top: -2px;
+margin-bottom: -2px;
+border-radius: 2px;
+}
+
+QSlider::handle:horizontal:hover {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+    stop:0 #fff, stop:1 #ddd);
+border: 1px solid #444;
+border-radius: 4px;
+}
+
+QSlider::sub-page:horizontal:disabled {
+background: #bbb;
+border-color: #999;
+}
+
+QSlider::add-page:horizontal:disabled {
+background: #eee;
+border-color: #999;
+}
+
+QSlider::handle:horizontal:disabled {
+background: #eee;
+border: 1px solid #aaa;
+border-radius: 2px;
+}
+
+/*------------------------------------INSTRUCTIONS------------------------------------------------*/
+
+QWidget#Instructions
+{
+    border-image: url(:/icones/images/paper.jpg) 0 0 0 0  stretch;
+}
+
+
+/*scollbar*/
+QScrollBar:vertical
+ {
+     background-color: #2A2929;
+     width: 15px;
+     margin: 15px 3px 15px 3px;
+     border: 1px transparent #2A2929;
+     border-radius: 4px;
+ }
+
+ QScrollBar::handle:vertical
+ {
+     background-color: #937761;         /* #605F5F; */
+     min-height: 5px;
+     border-radius: 4px;
+ }
+
+ QScrollBar::sub-line:vertical
+ {
+     margin: 3px 0px 3px 0px;
+     border-image: url(:/qss_icons/rc/up_arrow_disabled.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::add-line:vertical
+ {
+     margin: 3px 0px 3px 0px;
+     border-image: url(:/qss_icons/rc/down_arrow_disabled.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: bottom;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::sub-line:vertical:hover,QScrollBar::sub-line:vertical:on
+ {
+
+     border-image: url(:/qss_icons/rc/up_arrow.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+ }
+
+
+ QScrollBar::add-line:vertical:hover, QScrollBar::add-line:vertical:on
+ {
+     border-image: url(:/qss_icons/rc/down_arrow.png);
+     height: 10px;
+     width: 10px;
+     subcontrol-position: bottom;
+     subcontrol-origin: margin;
+ }
+
+ QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical
+ {
+     background: none;
+ }
+
+
+ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
+ {
+     background: none;
+ }
+
+
+/*-----------------------------------CREA PARTIE--------------------------------------------------*/
+#nbrJoueurs {
+margin-left: 30px;  /* make room for the arrows */
+margin-right: 30px;  /* make room for the arrows */
+width: 40px;
+padding-top : 10px;
+padding-bottom : 10px;
+border: 1 solid #515151;
+
+}
+
+QLineEdit {
+padding-left : 10px;
+padding-right : 10px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    border: 1 solid #515151;
+    border-radius : 2px;
+}
+
+#pseudo_widget QTextEdit {
+border: 1 solid #515151;
+    border-radius : 2px;
+}
+
+QLineEdit:focus ,#pseudo_widget QTextEdit:focus {
+    border: 1 solid #c09b7f;
+}
+
+#nbrJoueurs::up-button  {
+    subcontrol-origin: margin;
+    subcontrol-position: center left;
+
+    width: 20px;
+    border-width: 1px;
+}
+
+#nbrJoueurs::up-arrow  {
+
+image: url(:/icones/images/add.png);
+
+min-width: 19px;
+min-height: 14px;
+max-width: 19px;
+max-height: 14px;
+height: 19px;
+width: 14px;
+}
+
+#nbrJoueurs::up-button:pressed  {
+height: 17px;
+width: 13px;
+}
+
+#nbrJoueurs::down-button  {
+subcontrol-origin: margin;
+subcontrol-position: center right;
+width: 19px;
+border-width: 1px;
+}
+
+#nbrJoueurs::down-arrow  {
+        image: url(:/icones/images/minus.png);
+
+min-width: 19px;
+min-height: 14px;
+max-width: 19px;
+max-height: 14px;
+height: 19px;
+width: 14px;
+}
+
+#nbrJoueurs::down-button:pressed  {
+height: 17px;
+width: 13px;
+}
+
+#gridLayout_jeu_milieu QPushButton{
+    border-radius : 10px;
+}
+
+/*-------------------------------------------Cartes dans profil.ui---------------------------------------*/
+QGridLayout#gridLayout_infos QPushButton
+{
+    background-color : #ff0000;
+
+}
+
+
+/*-------------------------------------------Cartes en jeu ----------------------------------------------*/
+#stats_widget
+{
+background-image : url(:/icones/images/burned_paper.png);
+background-position : left;
+background-repeat : no-repeat;
+}
+
+
+/*Carte_button:hover{
+height : 60px ;
+width : 110px ;
+}*/
+
+
+#gridLayout_info_joueur QPushButton {
+    background-image : none;
+    border-style : none;
+}
+
+#gridLayout_info_manches{
+    background-color : #ecd4bc;
+}
+
+/*--------------------------------------------VUES CARTES--------------------------------------------------*/
+
+#Layout_cartes Joueur_button {
+     background-image : none;
+    border-style : none;
+}

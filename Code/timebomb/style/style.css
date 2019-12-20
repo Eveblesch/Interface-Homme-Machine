@@ -1,0 +1,133 @@
+
+
+#centralWidgetBis{
+    border-image: url(:/icones/images/londres.jpg) 0 0 0 0  stretch;
+}
+
+#centralWidget
+{
+    border-image: url(:/icones/images/wood2.jpg) 0 0 0 0  stretch;
+    
+}
+
+#Choix_partie {
+    background-color : #ff0000;
+}
+
+/*#MainWindow
+{
+    font-size: 12pt;
+    font-family : "Merriweather";
+
+}*/
+
+#Profil {
+    background-color : #ff0000;
+}
+
+QWidget {
+
+    /*border-image: url(:/icones/images/wood.jpg) 0 0 0 0  stretch;*/
+}
+
+
+QPushButton {
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #9a8083;
+    padding : 10px 20px;
+
+    background-color : #ecd4bc;
+
+}
+
+QPushButton:hover{
+        background-color:#c09b7f;
+}
+
+QPushButton:pressed{
+        background-color:#937761;
+
+}
+
+/*-----------------------------------CREA PARTIE--------------------------------------------------*/
+#nbrJoueurs {
+margin-left: 30px;  /* make room for the arrows */
+margin-right: 30px;  /* make room for the arrows */
+width: 20px;
+padding-top : 10px;
+padding-bottom : 10px:
+border: 2 solid #515151;
+
+}
+
+QLineEdit {
+    padding-top : 10px;
+    padding-bottom : 10px:
+    border: 2 solid #515151;
+}
+
+QLineEdit:selected {
+    border: 2 solid #c09b7f;
+}
+
+#nbrJoueurs::up-button  {
+subcontrol-origin: margin;
+subcontrol-position: center left;
+
+width: 20px;
+border-width: 1px;
+}
+
+#nbrJoueurs::up-arrow  {
+
+image: url(:/icones/images/add.png);
+
+min-width: 19px;
+min-height: 14px;
+max-width: 19px;
+max-height: 14px;
+height: 19px;
+width: 14px;
+}
+
+#nbrJoueurs::up-button:pressed  {
+height: 17px;
+width: 13px;
+}
+
+#nbrJoueurs::down-button  {
+subcontrol-origin: margin;
+subcontrol-position: center right;
+width: 19px;
+border-width: 1px;
+}
+
+#nbrJoueurs::down-arrow  {
+        image: url(:/icones/images/minus.png);
+
+min-width: 19px;
+min-height: 14px;
+max-width: 19px;
+max-height: 14px;
+height: 19px;
+width: 14px;
+}
+
+#nbrJoueurs::down-button:pressed  {
+height: 17px;
+width: 13px;
+}
+
+/*-------------------------------------------Cartes dans profil.ui---------------------------------------*/
+#gridLayout_infos QPushButton
+{
+    border-style: none;
+}
+/*-------------------------------------------Cartes en jeu ----------------------------------------------*/
+
+Carte_button:hover{
+height : 60px ;
+width : 110px ;
+}

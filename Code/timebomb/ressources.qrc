@@ -1,0 +1,58 @@
+<RCC>
+    <qresource prefix="/icones">
+        <file alias="joueur">images/perso.png</file>
+        <file alias="fils_desamorcage">images/fils.png</file>
+        <file alias="filNormal">images/filNormal.jpg</file>
+        <file alias="bombe">images/bombe.jpg</file>
+        <file alias="persoJoueur1">images/persoBleu1.png</file>
+        <file alias="persoJoueur2">images/persoRouge1.png</file>
+        <file alias="persoJoueur3">images/persoRouge2.png</file>
+        <file alias="persoJoueur4">images/persoBleu2.png</file>
+        <file alias="persoJoueur5">images/persoBleu3.png</file>
+        <file alias="persoJoueur6">images/persoBleu4.png</file>
+        <file alias="persoJoueur7">images/persoBleu5.png</file>
+        <file alias="persoJoueur8">images/persoRouge3.png</file>
+        <file>images/londres.jpg</file>
+        <file>images/titre.png</file>
+        <file>images/shuffle.gif</file>
+        <file>images/add.png</file>
+        <file>images/minus.png</file>
+        <file>images/clock.png</file>
+        <file>images/wood.jpg</file>
+        <file>images/wood2.jpg</file>
+        <file>images/texture.jpg</file>
+        <file>images/test.mp4</file>
+        <file>jacky/jacky.jpg</file>
+        <file>images/old_paper.jpg</file>
+        <file>images/wood.png</file>
+        <file alias="dosCarte">images/dosCarte.png</file>
+        <file>images/paper.jpg</file>
+        <file>images/texture.png</file>
+        <file>images/texturehover.png</file>
+        <file>images/londres2.jpg</file>
+        <file>images/wood3.png</file>
+        <file>images/separator.png</file>
+        <file>images/bombicon.png</file>
+        <file>images/dificon.png</file>
+        <file>images/carte.gif</file>
+        <file>images/dosCarte2.jpeg</file>
+        <file>images/dosCarte2hover.jpg</file>
+        <file>images/defaite.png</file>
+        <file>images/victoire.png</file>
+        <file>images/burned_paper.png</file>
+        <file>jacky/accueil.jpg</file>
+        <file>jacky/feu.jpg</file>
+        <file>jacky/defaite.jpg</file>
+        <file>jacky/doscarte.jpg</file>
+        <file>jacky/bitume.jpg</file>
+        <file>blindcolor/doscarte.jpg</file>
+        <file>jacky/steel.jpg</file>
+    </qresource>
+    <qresource prefix="/style">
+        <file>style/style.qss</file>
+        <file>style/style.css</file>
+        <file>style/jacky.qss</file>
+        <file>style/colorblind.qss</file>
+    </qresource>
+    <qresource prefix="/jacky"/>
+</RCC>
